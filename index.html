@@ -1,0 +1,97 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	  
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   </head>
+   <body>
+      <header id="header" >
+         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="nav-bar">
+            <a class="navbar-brand" href="#"><img src="./img/Rolex-Logo-Small.png" id="header-img"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav mx-auto">
+                  <a class="nav-item nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#Overview">Overview</a>
+                  <a class="nav-item nav-link" href="#video">How It Works</a>
+                  <a class="nav-item nav-link" href="#Pricing">Pricing</a>
+               </div>
+            </div>
+         </nav>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12">
+                  <div id="Home">
+                     <h1 id="Overview">Rolex Watches For Sale</h1>
+                     <img class="myFlexedImage" src="./img/RolexSubmariner.jpg" >
+                     <p>Silver, Gold, and Platinum Available</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br/><br/>
+         <div class="container-fluid">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+               <h5 id="description">Enter Your Email Address For Promotions </h5>
+               <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                     <div class="form-group">
+                        <label for="email" id="email-label">Email address</label>
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Enter email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+                     </div>
+                     <input type="submit" id="submit" class="btn btn-primary btn-block">Submit</input>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </header>
+      <br/><br/>
+      <div class="container-fluid px-0">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="embed-responsive embed-responsive-16by9">
+                  <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/IjcvZ8GSl1M" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br/><br/>
+      <div class="container" id="Pricing">
+         <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+               <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Silver</h4>
+               </div>
+               <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$5700 </h1>
+                  <img src="./img/Silver.jpg" class = "card-img-top" alt="Silver"><br/><br/>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Buy</button>
+               </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+               <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Gold</h4>
+               </div>
+               <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$12000</h1>
+                  <img src="./img/Gold.jpg" class = "card-img-top" alt="Gold"><br/><br/>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Buy</button>
+               </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+               <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Platinum</h4>
+               </div>
+               <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$32500 </h1>
+                  <img src="./img/Platinum.jpg" class = "card-img-top" alt="Platinum"><br/><br/>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Buy</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

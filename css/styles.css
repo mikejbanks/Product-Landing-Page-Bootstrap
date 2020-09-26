@@ -1,0 +1,19 @@
+.nav-link {
+color:RGBA(0,99,65) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue !important;
+  }
+}
+
+.myFlexedImage {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+h1#Overview {
+  margin-top:100px !important;
+}
